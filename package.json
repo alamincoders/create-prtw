@@ -1,0 +1,35 @@
+{
+  "name": "create-prtw",
+  "version": "1.0.0",
+  "description": "Advanced React & Next.js project scaffolding tool",
+  "type": "module",
+  "bin": {
+    "create-prtw": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alamincoders/create-prtw"
+  },
+  "keywords": [
+    "react",
+    "nextjs",
+    "vite",
+    "cli",
+    "scaffolding",
+    "typescript",
+    "tailwind",
+    "shadcn"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.6.0",
+    "execa": "^9.6.0",
+    "fs-extra": "^11.3.1",
+    "inquirer": "^12.9.4",
+    "ora": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
